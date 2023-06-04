@@ -1,0 +1,23 @@
+visual studio/IDEA/eclipse/git/SQL/vim
+vim:
+Vim 号称编辑器之神，唯快不破，可扩展，插件遍天下。
+学习曲线虽然陡峭，但是学成之后，基本上就成肌肉记忆了，写程序双手不离键盘，上下翻飞，可谓快意编程。
+
+~./vimrc
+set nobackup 表示不需要备份文件
+set noswapfile 表示不创建临时交换文件
+set nowritebackup 表示编辑的时候不需要备份文件
+set noundofile 表示不创建撤销文件
+
+IDEA:
+there are many shortcut and englishword to imporve efficiency.
+
+eclipse:
+
+git:
+
+visual studio:
+
+
+SQL:
+
