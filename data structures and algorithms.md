@@ -108,5 +108,19 @@ float: 32-bit floating-point number(IEEE 754-1985)
 
 double: 64-bit floating-point number(IEEE 754-1985)
 
+​		Classes are known as reference types in Java, and a variable of that type is known as a reference variable. A reference variable is capable of storing the location of an object from the declared class. So we might assign it to reference an existing i-nstance or a newly constructed instance. A reference variable can also store a sp-ecial value, null, that represents the lack of an object.
 
+​		Three events occur as part of the creation of a new instance of a class:
+
+​		1.A new object is dynamically allocated in memory, and all instance variables      
+
+are  initialized to standard  default values(But I saw should be explicitly declared as the initial value is better). The default values are null for reference variables a-nd 0 for all base types except boolean variables(which are false by default).
+
+​		2.The constructor for the new object is called with the parameters specifi-ed.The constructor may assign more meaningful values to any of the instance vari-ables, and perform any additional computations that must be done due to the c-reation of this object.
+
+​		3.After the constructor returns, the new operator returns a reference to the newly created object. If the expression is in the form of an assignment statement, then this address is stored in the object variable, so the object variable refers to this newly created object.
+
+​		Java does not allow two methods with the same signature(name and param-enters are the same) to return different types(This is a  rule, maybe the designer considers the execution program does not pay attention to the return value).
+
+​		Java is call by reference,  so we write code should consider the object statu-s may change, we should focus on object life cycle and status.
 
