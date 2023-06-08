@@ -120,7 +120,64 @@ are  initialized to standard  default values(But I saw should be explicitly decl
 
 ​		3.After the constructor returns, the new operator returns a reference to the newly created object. If the expression is in the form of an assignment statement, then this address is stored in the object variable, so the object variable refers to this newly created object.
 
-​		Java does not allow two methods with the same signature(name and param-enters are the same) to return different types(This is a  rule, maybe the designer considers the execution program does not pay attention to the return value).
+​		Java does not allow two methods with the same signature(name and param-eters are the same) to return different types(This is a  rule, maybe the designer considers the execution program does not pay attention to the return value).
 
 ​		Java is call by reference,  so we write code should consider the object statu-s may change, we should focus on object life cycle and status.
 
+**Modifiers**
+
+​		Access Control Modifiers
+
+|           | same PKG   | same PKG       | diff PKG   | diff PKG       |
+| --------- | ---------- | -------------- | ---------- | -------------- |
+|           | subclasses | non-subclasses | subclasses | non-subclasses |
+| private   | 0          | 0              | 0          | 0              |
+|           | 1          | 1              | 0          | 0              |
+| protected | 1          | 1              | 1          | 0              |
+| public    | 1          | 1              | 1          | 1              |
+
+​		static Modifier
+
+​		abstract Modifier
+
+​		final Modifer
+
+Declaring Instance Variables
+
+Declaring Methods
+
+​		Return Types
+
+​		Parameters
+
+Defining Constructors
+
+The Keyword this
+
+​		Within the body of a (non-static) method in Java, the keyword this is automatically
+
+defined as a reference to the instance upon which the method was invoked. That is, if a 
+
+caller uses a syntax such as thing.foo(a,b,c), then within the body of method foo for that
+
+call,the keyword this refers to the object known as thing in the caller's context. There are
+
+three common reasons why this reference is needed from within a method body:
+
+​		1. To store the reference in a variable,  or send it as a parameter to another method
+
+that expects an instance of that type as an argument.
+
+​		2.To differentiate between an instance variable and a local variable with the same 
+
+name. If a local variable is declared in a method having the same name as an instance
+
+variable within that method body.()
+
+​		3.
+
+The main Method
+
+Unit Testing
+
+1.3 Strings,Wrappers,Arrays, and Enum Types
