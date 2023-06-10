@@ -1,3 +1,5 @@
+		**Where there is a will, there is a way!  Take "Data Structure and Algorithm" and be proficient in Java!**
+
 Data Structures and Algorithms in Java  
 
 Sixth Edition 
@@ -122,7 +124,7 @@ are  initialized to standard  default values(But I saw should be explicitly decl
 
 ​		Java does not allow two methods with the same signature(name and param-eters are the same) to return different types(This is a  rule, maybe the designer considers the execution program does not pay attention to the return value).
 
-​		Java is call by reference,  so we write code should consider the object statu-s may change, we should focus on object life cycle and status.
+​		There are three ways to pass parameters to methods/functions in programming languages, call by name, call by reference, and call by value, and Java is passed by value,  so we write code should consider the object status may change, we should focus on object life cycle and status.
 
 **Modifiers**
 
@@ -168,16 +170,50 @@ three common reasons why this reference is needed from within a method body:
 
 that expects an instance of that type as an argument.
 
-​		2.To differentiate between an instance variable and a local variable with the same 
+​		2. To differentiate between an instance variable and a local variable with the same 
 
 name. If a local variable is declared in a method having the same name as an instance
 
-variable within that method body.()
+variable within that method body.(We say that the local variable masks the instance varia-ble). In this case, the instance variable can still be accessed by explicitly using the dot not-ation with this as the qualifier. For example, some programmers prefer to use the followi-ng style for a constructor, with a parameter having the same name as the underlying var-iable.
 
-​		3.
+```java
+public Counter(int count){
+	this.count = count; //set the instance variable equal to parameter
+}
+```
+
+  3. To allow one constructor body to invoke another constructor body. When one met-hon of a class invokes another of that same class on the current instance, that is  typ-ically done by using the (unqualified) name of the other method. But the syntax for 
+
+     calling a constructor is special. Java allows user of the keyword this to be used as a m-ethod within the body of one constructor, so as to invoke another constructor with a     
+
+     different signature.(This is often useful because all of the initialization steps of one co-nstructor can be reused with appropriate parameterization.)
 
 The main Method
+
+​		As far as I know, every programming language has a main function/method, I think of 
+
+it this way, let the computer operation always specify where to start.
 
 Unit Testing
 
 1.3 Strings,Wrappers,Arrays, and Enum Types
+
+1.9 Software Development
+
+​	Traditional software development involves several phases. Three major steps are:
+
+​			1.Design
+
+​			2.Coding
+
+​			3.Testing and Debugging
+
+​	In this section, we briefly discuss the role of these phases, and we introduce several good
+
+practices for programming in Java, including coding style, naming convention, formal docu-mentation, and testing.
+
+​	1.9.1 Design
+
+​			For object-oriented programming, the design step is perhaps the most important 	
+
+phase in the process of developing software. It
