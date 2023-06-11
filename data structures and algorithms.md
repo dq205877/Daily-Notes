@@ -36,7 +36,7 @@ Sixth Edition
 
 
 
-1.Java Primer
+Chatper1 Java Primer 1
 
 1.1 Getting Started
 
@@ -81,6 +81,8 @@ Sixth Edition
 ​		1.9.3 Coding
 
 ​		1.9.4 Documentation and Style
+
+​		1.9.5 Testing and Debugging
 
 1.10 Exercises
 
@@ -216,4 +218,139 @@ practices for programming in Java, including coding style, naming convention, fo
 
 ​			For object-oriented programming, the design step is perhaps the most important 	
 
-phase in the process of developing software. It
+phase in the process of developing software. It is in the design step that we decide how to di-vide the working of our program into classes, when we decide how these classes will interact,
+
+what data each will store, and what actions each will perform. Indeed, one of the main chall-enges tha beginning programmers face is deciding what classes to define to do the work of t-heir program. While general prescriptions are hard to come by, there are some rules of thu-mb that we can apply when determining how to define our classes:
+
+​		1.Responsibilities: Divide the work into different actors, each with a different responsi-bility. Try to describe responsibilities using action verbs. These actors will form the classes
+
+for the program.
+
+​		2.Independence: Define the work for each class to be as independent from other classes
+
+ as possible.
+
+​		3.Behaviors: Define the behaviors for each class carefully and precisely.
+
+​		Defining the classes, together with their instance variables and methods, are key to the design of an object -oriented program.
+
+​		CRC(Class-Responsibility-Collaborator) cards: On the left-hand side of the card: responsi-bilities for this component. On the right-hand side of the card: collaborators for this comp-onent.
+
+​		As the design takes form, a standard approach to explain and document the design is 
+
+the use of UML(Unified Modeling Language) diagrams to express the organization of a prog-ram.
+
+​	1.9.2 Pseudocode
+
+​		Pseudocode is not a computer program, but is more structured than usual prose.
+
+​		There really is no precise definition of the pseudocode language. At the same time, to 
+
+help achieve clarity, pseudocode mixes natural language with standard programming lang-uage constructs. Such as: Expressions/Method declarations/Decision structures/While-loops/Repeat-loops/For-loops/Array indexing/Method calls/Method returns/Comments
+
+​	1.9.3 Coding
+
+​		design patterns/integrated development environment(IDE)/compile/path
+
+​	1.9.4 Documentation and Style
+
+​		Javadoc/tags/format
+
+​	1.9.5 Testing and Debugging
+
+​		are often the most time-consuming activity in the development of a program.
+
+​		Testing
+
+​			special cases/top-down|bottom-up/stubbing/unit testing/regression testing
+
+​		Debugging
+
+​			print statements/debugger/breakpoints/conditional breakpoints
+
+​	1.10 Exercises
+
+
+
+Chapter2 Object-Oriented Design 59
+
+2.1 Goals, Principles, and Patterns
+
+​		2.1.1 Object-Oriented Design Goals
+
+​		2.1.2 Object-Oriented Design Principles
+
+​		2.1.3 Design Patterns
+
+2.2 Inheritance
+
+​		2.2.1 Extending the CreditCard Class
+
+​		2.2.2 Polymorphism and Dynamic Dispatch
+
+​		2.2.3 Inheritance Hierarchies
+
+2.3 Interfaces and Abstract Classes
+
+​		2.3.1 Interfaces in Java
+
+​		2.3.2 Multiple Inheritance for Interfaces
+
+​		2.3.3 Abstract Classes
+
+2.4 Exceptions
+
+​		2.4.1 Catching Exceptions
+
+​		2.4.2 Throwing Exceptions
+
+​		2.4.3 Java's Exception Hierarchy
+
+2.5 Casting and Generics
+
+​		2.5.1 Casting
+
+​		2.5.2 Generics
+
+2.6 Nested Classes
+
+2.7 Exercises
+
+Chapter3 Fundamental Data Structures 103
+
+Chapter4 Algorithm Analysis 149
+
+Chapter5 Recursion 189
+
+Chapter6 Stacks, Queues, and Deques 225
+
+Chapter7 List and Iterator ADTs 257
+
+Chapter8 Trees 307
+
+Chapter9 Priority Queues 359
+
+Chapter10 Maps, Hash Tables, and Skip Lists 401
+
+Chapter11 Search Trees 459
+
+Chapter12 Sorting and Selection 531
+
+Chapter13 Text Processing 573
+
+Chapter14 Graph Algorithms 611
+
+Chapter15 Memory Management and B-Trees 687
+
+
+
+
+
+
+
+​		
+
+
+
+
+
