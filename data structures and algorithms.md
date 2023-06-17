@@ -318,31 +318,513 @@ Chapter2 Object-Oriented Design 59
 
 Chapter3 Fundamental Data Structures 103
 
+3.1 Using Arrays
+
+​		3.1.1 Storing Game Entries in an Array
+
+​		3.1.2 Sorting an Array
+
+​		3.1.3 java.util Methods for Arrays and Random Numbers
+
+​		3.1.4 Simple Cryptography with Character Arrays
+
+​		3.1.5 Two-Dimensional Arrays and Positional Games
+
+3.2 Singly Linked Lists
+
+​		3.2.1 Implementing a Singly Linked List Class
+
+3.3 Circularly Linked Lists
+
+​		3.3.1 Round-Bobin Scheduling
+
+​		3.3.2 Designing and Implementing a Circularly Linked List
+
+3.4 Doubly Linked Lists
+
+​		3.4.1 Implementing a Doubly Linked List Class
+
+3.5 Equivalence Testing
+
+​		3.5.1 Equivalence Testing with Arrays
+
+​		3.5.2 Equivalence Testing with Linked Lists
+
+3.6 Cloning Data Structures
+
+​		3.6.1 Cloning Arrays
+
+​		3.6.2 Cloning Linked List
+
+3.7 Exercises
+
 Chapter4 Algorithm Analysis 149
+
+4.1 Experimental Studies
+
+​		4.1.1 Moving Beyond Experimental Analysis
+
+4.2 The Seven Functions Used in This Book
+
+​		4.2.1 Comparing Growth Rates
+
+4.3 Asymptotic Analysis
+
+​		4.3.1 The "Big-Oh" Notation
+
+​		4.3.2 Comparative Analysis
+
+​		4.3.3 Example of Algorithm Analysis
+
+4.4 Simple Justification Techniques
+
+​		4.4.1 By Example
+
+​		4.4.2 The "Contra" Attack
+
+​		4.4.3 Induction and Loop Invariants
+
+4.5 Exercises
 
 Chapter5 Recursion 189
 
+5.1 Illustrative Examples
+
+​		5.1.1 The Factorial Function
+
+​		5.1.2 Drawing an English Ruler
+
+​		5.1.3 Binary Search
+
+​		5.1.4 File Systems
+
+5.2 Analyzing Recursive Algorithms
+
+5.3 Further Examples of Recursion
+
+​		5.3.1 Linear Recursion
+
+​		5.3.2 Binary Recursion
+
+​		5.3.3 Multiple Recursion
+
+5.4 Designing Recursive Algorithms
+
+5.5 Recursion Run Amok
+
+​		5.5.1 Maximum Recursive Depth in Java
+
+5.6 Eliminating Tail Recursion
+
+5.7 Exercises
+
 Chapter6 Stacks, Queues, and Deques 225
+
+6.1 Stacks
+
+​		6.1.1 The Stack Abstract Data Type
+
+​		6.1.2 A Simple Array-Based Stack Implementation
+
+​		6.1.3 Implementing a Stack with a Singly Linked Lisg
+
+​		6.1.4 Reversing an Array Using a Stack
+
+​		6.1.5 Matching Parentheses and HTML Tags
+
+6.2 Queues
+
+​		6.2.1 The Queue Abstract Data Type
+
+​		6.2.2 Array-Based Queue Implementation
+
+​		6.2.3 Implementing a Queue with a Singly Linked List
+
+​		6.2.4 A Circular Queue
+
+6.3 Double-Ended Queues
+
+​		6.3.1 The Deque Abstract Data Type
+
+​		6.3.2 Implementing a Deque
+
+​		6.3.3 Deques in the Java Collections Framework
+
+6.4 Exercises
 
 Chapter7 List and Iterator ADTs 257
 
+7.1 The List ADT
+
+7.2 Array Lists
+
+​		7.2.1 Dynamic Arrays
+
+​		7.2.2 Implementing a Dynamic Array
+
+​		7.2.3 Amortized Analysis of Dynamic Arrays
+
+​		7.2.4 Java's StringBuilder class
+
+7.3 Positional Lists
+
+​		7.3.1 Positions
+
+​		7.3.2 The Positional List Abstract Data Type
+
+​		7.3.3 Doubly Linked List Implementation
+
+7.4 Iterators
+
+​		7.4.1 The Iterable Interface and Java's For-Each Loop
+
+​		7.4.2 Implementing Iterators
+
+7.5 The Java Collections Framwork
+
+​		7.5.1 List Iterators in Java
+
+​		7.5.2 Comparison to Our Positional List ADT
+
+​		7.5.3 List-Based Algorithms in the Java Collections Framework
+
+7.6 Sorting a Positional List
+
+7.7 Case Study: Maintaining Access Frequencies
+
+​		7.7.1 Using a Sorted List
+
+​		7.7.2 Using a List with the Move-to-Front Heurstic
+
+7.8 Exercises
+
 Chapter8 Trees 307
+
+8.1 General Trees
+
+​		8.1.1 Tree Definitions and Properties
+
+​		8.1.2 The Tree Abstract Data Type
+
+​		8.1.3 Computing Depth and Height
+
+8.2 Binary Trees
+
+​		8.2.1 The Binary Tree Abstract Data Type
+
+​		8.2.2 Properties of Binary Trees
+
+8.3 Implementing Trees
+
+​		8.3.1 Linked Structure for Binary Trees
+
+​		8.3.2 Array-Based Representation of a Binary Tree
+
+​		8.3.3 Linked Structure for General Trees
+
+8.4 Tree Traversal Algorithms
+
+​		8.4.1 Preorder and Postorder Traversals of General Trees
+
+​		8.4.2 Breadth-First Tree Travesal
+
+​		8.4.3 Inorder Traversal of a Binary Tree
+
+​		8.4.4 Implementing Tree Traversals in Java
+
+​		8.4.5 Applications of Tree Traversals
+
+​		8.4.6 Euler Tours
+
+8.5 Exercise
 
 Chapter9 Priority Queues 359
 
+9.1 The Priority Queue Abstract Data Type
+
+​		9.1.1 Priorities
+
+​		9.1.2 The Priority Queue ADT
+
+9.2 Implementing a Priority Queue
+
+​		9.2.1 The Entry Composite
+
+​		9.2.2 Comparing Keys with Total Orders
+
+​		9.2.3 The AbstractPriorityQueue Base Class
+
+​		9.2.4 Implementing a Priority Queue with an Unsorted List
+
+​		9.2.5 Implementing a Priority Queue with a Sorted List
+
+9.3 Heaps
+
+​		9.3.1 The Heap Data Structure
+
+​		9.3.2 Implementing a Priority Queue with a Heap
+
+​		9.3.3 Analysis of a Heap-Based Priority Queue
+
+​		9.3.4 Bottom-Up Heap Construction*
+
+​		9.3.5 Using the java.util.PriorityQueue Class
+
+9.4 Sorting with a Priority Queue
+
+​		9.4.1 Selection-Sort and Insertion-Sort
+
+​		9.4.2 Heap-Sort
+
+9.5 Adaptable Priority Queues
+
+​		9.5.1 Location-Aware Entries
+
+​		9.5.2 Implementing an Adaptable Priority Queue
+
+9.6 Exercises
+
 Chapter10 Maps, Hash Tables, and Skip Lists 401
+
+10.1 Maps
+
+​		10.1.1 The Map ADT
+
+​		10.1.2 Application: Counting Word Frequencies
+
+​		10.1.3 An AbstactMap Base Class
+
+​		10.1.4 A Simple Unsorted Map Implementation
+
+10.2 Hash Tables
+
+​		10.2.1 Hash Functions
+
+​		10.2.2 Collision-Handing Schemes
+
+​		10.2.3 Load Factors, Rehashing and Efficiency
+
+​		10.2.4 Java Hash Table Implementation
+
+10.3 Sorted Maps
+
+​		10.3.1 Sorted Search Tables
+
+​		10.3.2 Two Applications of Sorted Maps
+
+10.4 Skip Lists
+
+​		10.4.1 Search and Update Operation in a Skip List
+
+​		10.4.2 Probabilistic Analysis of Skip Lists*
+
+10.5 Sets, Multisets, and Multimaps
+
+​		10.5.1 The Set ADT
+
+​		10.5.2 The Multiset ADT
+
+​		10.5.3 The Multimap ADT
+
+10.6 Exercises
 
 Chapter11 Search Trees 459
 
+11.1 Binary Search Trees
+
+​		11.1.1 Searching Within a Binary Search Tree
+
+​		11.1.2 Insertions and Deletions
+
+​		11.1.3 Java Implementation
+
+​		11.1.4 Performance of a Binary Search Tree
+
+11.2 Balanced Search Trees
+
+​		11.2.1 Java Framework for Balancing Search Trees
+
+11.3 AVL Trees
+
+​		11.3.1 Update Operations
+
+​		11.3.2 Java Implementation
+
+11.4 Splay Trees
+
+​		11.4.1 Splaying
+
+​		11.4.2 When to Splay
+
+​		11.4.3 Java Implementation
+
+​		11.4.4 Amortized Analysis of Splaying*
+
+11.5 (2,4) Trees
+
+​		11.5.1 Multiway Search Trees
+
+​		11.5.2 (2,4)-Tree Operations
+
+11.6 Red-Black Trees
+
+​		11.6.1 Red-Black Tree Operations
+
+​		11.6.2 Java Implementation
+
+11.7 Exercises
+
 Chapter12 Sorting and Selection 531
+
+12.1 Merge-Sort
+
+​		12.1.1 Divide-and-Conquer
+
+​		12.1.2 Array-Based Implementation of Merge-Sort
+
+​		12.1.3 The Running Time of Merge-Sort
+
+​		12.1.4 Merge-Sort and Recurrence Equations*
+
+​		12.1.5 Alternative Implementations of Merge-Sort
+
+12.2 Quick-Sort
+
+​		12.2.1 Randomized Quick-Sort
+
+​		12.2.2 Additional Optimizations for Quick-Sort
+
+12.3 Studying Sorting through an Algorithmic Lens
+
+​		12.3.1 Lower Bound for Sorting
+
+​		12.3.2 Linear-Time Sorting Bucket-Sort and Radix-Sort
+
+12.4 Comparing Sorting Algorithms
+
+12.5 Selection
+
+​		12.5.1 Prune-and-Search
+
+​		12.5.2 Randomized Quick-Select
+
+​		12.5.3 Analyzing Randomized Quick-Select
+
+12.6 Exercises
 
 Chapter13 Text Processing 573
 
+13.1 Abundance of Digitized Text
+
+​		13.1.1 Notations for Character Strings
+
+13.2 Pattern-Matching Algorithms
+
+​		13.2.1 Brute Force
+
+​		13.2.2 The Boyer-Moore Algorithm
+
+​		13.2.3 The Knuth-Morris-Pratt Algorithm
+
+13.3 Tries
+
+​		13.3.1 Standard Tries
+
+​		13.3.2 Compressed Tries
+
+​		13.3.3 Suffix Tries
+
+​		13.3.4 Search Engine Indexing
+
+13.4 Text Compression and the Greedy Method
+
+​		13.4.1 The Huffman Coding Algorithm
+
+​		13.4.2 The Greedy Method
+
+13.5 Dynamic Programming
+
+​		13.5.1 Matrix Chain-Product
+
+​		13.5.2 DNA and Text Sequence Alignment
+
+13.6 Exercises
+
 Chapter14 Graph Algorithms 611
+
+14.1 Graphs
+
+​		14.1.1 The Graph ADT
+
+14.2 Data Structures for Graphs
+
+​		14.2.1 Edge List Structure
+
+​		14.2.2 Adjacency List Structure
+
+​		14.2.3 Adjacency Map Structure
+
+​		14.2.4 Adjacency Matrix Structure
+
+​		14.2.5 Java Implementation
+
+14.3 Graph Traversals
+
+​		14.3.1 Depth-First Search
+
+​		14.3.2 DFS Implementation and Extensions
+
+​		14.3.3 Breadth-Frist Search
+
+14.4 Transitive Closure
+
+14.5 Directed Acyclic Graphs
+
+​		14.5.1 Topological Ordering
+
+14.6 Shortest Paths
+
+​		14.6.1 Weighted Graphs
+
+​		14.6.2 Dijkstra's Algorithm
+
+14.7 Minimum Spanning Trees
+
+​		14.7.1 Prim-Jarni(two)k Algorithm
+
+​		14.7.2 Kruskal's Algorithm
+
+​		14.7.3 Disjoint Partitions and Union-Find Structures
+
+14.8 Exercises
 
 Chapter15 Memory Management and B-Trees 687
 
+15.1 Memory Management
 
+​		15.1.1 Stacks in the Java Virtual Machine
+
+​		15.1.2 Allocating Space in the Memory Heap
+
+​		15.1.3 Garbage Collection
+
+15.2 Memory Hierarchies and Caching
+
+​		15.2.1 Memory Systems
+
+​		15.2.2 Caching Strategies
+
+15.3 External Searching and B-Trees
+
+​		15.3.1 (a,b) Trees
+
+​		15.3.2 B-Trees
+
+15.4 External-Memory Sorting
+
+​		15.4.1 Multiway Merging
+
+15.5 Exercises
 
 
 
