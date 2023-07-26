@@ -10,6 +10,11 @@ public class RollFive {
         System.out.println(count);
     }
 
+    /**
+     * 2208. 将数组和减半的最少操作次数
+     * @param nums
+     * @return
+     */
     public static int halveArray(int[] nums) {
         //大顶堆（如果按顺序比较和默认是小顶堆）
         PriorityQueue<Double> maxHeap = new PriorityQueue<Double>((a, b) -> b.compareTo(a));
