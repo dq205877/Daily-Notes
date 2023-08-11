@@ -39,11 +39,11 @@ class ListNode {
       public String toString() {
             StringBuilder sb = new StringBuilder("ListNode val :{" + val +
                     '}');
-                    ListNode cur = this;
-                while(cur.next != null){
-                    sb.append("->"+ cur.next.val);
-                    cur = cur.next;
-                }
-                return sb.toString();
+            ListNode cur = this;
+            while(cur.next != null){
+                sb.append("->"+ cur.next.val);
+                cur = cur.next;
+            }
+            return sb.toString();
         }  
 }
