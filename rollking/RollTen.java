@@ -21,5 +21,16 @@ public class RollTen {
         }
         scan.close();
     }
+
+//nextLine方式接收：
+//        1  2   3   4  5  6 
+// 以nextLine输入的数据为：       1  2   3   4  5  6 
+//   1   2  3   4  5  6
+// 以next输入的数据为：1
+// 以next输入的数据为：2
+// 以next输入的数据为：3
+// 以next输入的数据为：4
+// 以next输入的数据为：5
+// 以next输入的数据为：6
 }
  
