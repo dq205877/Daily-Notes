@@ -16,6 +16,7 @@ public class RollElevenIsInterLeave{
         }
         int i = 0, j = 0, k = 0;
         while(k  < s3Lenth){
+            //错在有可能提前用完了某个字符的所有字符导致后面的顺序乱了
             if(i < s1Length  &&  s3.charAt(k) == s1.charAt(i)){
                 i++;
                 k++;
