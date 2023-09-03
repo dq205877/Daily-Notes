@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class RollThirtyth {
+public class RollThirtythThreeSum {
     public static void main(String[] args) {
         int [] arr = {0,0,0,0};
         threeSum(arr);

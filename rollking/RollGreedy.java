@@ -1,6 +1,7 @@
 package rollking;
 
 import java.util.Arrays;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class RollGreedy {
     public static void main(String[] args) {
@@ -40,10 +41,11 @@ public class RollGreedy {
                 // 否则尝试把当前面值-1
                 continue;
             }
+            ThreadPoolExecutor
     
             minResult = Math.min(minResult, count + restCount);
         }
-    
+    java.util.Arrays.copyOf(nums,copyIndex,i + 1)
         return minResult;
     }
     
