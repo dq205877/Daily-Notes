@@ -12,7 +12,7 @@ public class RollSixtyth {
     public List<Double> averageOfLevels(TreeNode root) {
         List<List<Integer>> list = new ArrayList();
         if(root == null){
-            return list;
+            return null;
         }
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         queue.offer(root);
@@ -35,7 +35,7 @@ public class RollSixtyth {
         for(List<Integer> listElement : list){
             result.add(listElement.stream().mapToLong(e->e).average().getAsDouble());
         }
-        return list;
+        return result;
     }
 
     /**
